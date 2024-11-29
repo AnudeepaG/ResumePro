@@ -14,6 +14,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Download the 'stopwords' resource
+nltk.download('wordnet')
 nltk.download('stopwords')
 
 # Load environment variables
