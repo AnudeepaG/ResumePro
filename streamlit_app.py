@@ -225,7 +225,7 @@ st.sidebar.title("🌟 Extra Features")
 st.sidebar.image(
     "https://u-static.haozhaopian.net/uid_1f26e52fc45044fbb67feeacc48a1565/aiImage/8e99f9e2b50243dc99a10a0dbccf59a2.jpg", 
     caption="Optimize your resume for success!",
-    use_column_width=True
+    use_container_width=True
 )
 
 st.sidebar.info("""
