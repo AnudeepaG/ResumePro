@@ -3,6 +3,7 @@ google-generativeai
 PyPDF2
 python-dotenv
 nltk
+spacy
 matplotlib
 seaborn
 langchain-google-genai
