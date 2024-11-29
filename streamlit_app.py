@@ -13,6 +13,9 @@ from collections import Counter
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# Download the 'stopwords' resource
+nltk.download('stopwords')
+
 # Load environment variables
 load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
