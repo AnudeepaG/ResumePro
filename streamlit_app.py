@@ -15,6 +15,7 @@ import seaborn as sns
 
 # Download the 'stopwords' resource
 nltk.download('wordnet')
+nltk.download('omw-1.4')
 nltk.download('stopwords')
 
 # Load environment variables
