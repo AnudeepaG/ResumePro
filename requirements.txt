@@ -1,11 +1,8 @@
 streamlit
-nltk
-google-generativeai
-python-dotenv
-langchain
+google-generative-ai
 PyPDF2
-chromadb
-pdf2image
-faiss-cpu
+python-dotenv
+nltk
+matplotlib
+seaborn
 langchain_google_genai
-
