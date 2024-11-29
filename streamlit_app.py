@@ -13,10 +13,10 @@ from collections import Counter
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Download the 'stopwords' resource
+# Download the WordNet corpus and other necessary resources
 nltk.download('wordnet')
-nltk.download('omw-1.4')
-nltk.download('stopwords')
+nltk.download('omw-1.4')  # Optional for multilingual WordNet
+nltk.download('stopwords')  # If you're using stopwords from NLTK
 
 # Load environment variables
 load_dotenv()
